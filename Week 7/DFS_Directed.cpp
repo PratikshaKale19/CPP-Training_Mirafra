@@ -101,11 +101,11 @@ int main()
     // al.InsertVertex(2,1);
     // al.InsertVertex(2,4);
 
-    al.InsertVertex(1,2);
+    al.InsertVertex(0,2);
+    al.InsertVertex(2,4);
+    al.InsertVertex(2,1);
     al.InsertVertex(1,0);
-    al.InsertVertex(2,0);
-    al.InsertVertex(2,3);
-    al.InsertVertex(4,2);
+    al.InsertVertex(3,0);
 
    
 
@@ -126,7 +126,7 @@ int main()
 
     cout<<endl;
     cout<<"Depth First Search : ";
-    al.DepthFirstSearch(1);
+    al.DepthFirstSearch(0);
 
 
 
